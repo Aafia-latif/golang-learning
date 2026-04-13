@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("\n----- Ticket Details -----")
 
 	//Decision making with if-else
-	if age > 18 {
+	if age >= 18 {
 		ticketPrice = 1000
 		fmt.Printf("Hello %s , you are an Adult ✅\n", name)
 		fmt.Println("Ticket Type: Adult")
